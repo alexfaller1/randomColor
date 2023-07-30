@@ -1,0 +1,33 @@
+body {
+    background-color: #123AB1;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor button {
+    height: 60px;
+    width: 300px;
+    border-radius: 20px;
+    border: 6px solid black;
+    font-size: 25px;
+}
+
+.contenedor button:hover {
+    background-color: gray;
+}
+
+.contenedor p {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
